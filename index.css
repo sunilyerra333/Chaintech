@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.chaintech-logo {
+    height: 60px;
+    width: 180px;
+}
+
+#serviceId {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    font-family: Roboto;
+}
+
+#homeId {
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    font-family: Roboto;
+}
+
+.backcolor {
+    background-color: black;
+    height: 80vh;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wel-heading {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.top-para {
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.span-style {
+    background: linear-gradient(to left, lightgreen, yellow);
+    background-clip: text;
+    color: transparent;
+}
+
+.get-start-container {
+    background-color: white;
+    height: 82px;
+    width: 260px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.get-icon-style {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding-bottom: 20px;
+}
+
+.get-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.icon-size {
+    font-size: 32px;
+    margin-top: 6px;
+}
+
+.bot-container {
+    background-color: white;
+    height: 150vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.bot-ser-head {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.bot-ser-para {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.arrow-icon-style {
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.join-container {
+    background-color: #bddebd;
+    height: 450px;
+    width: 270px;
+    border-radius: 19px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.ch-logo-style {
+    height: 70px;
+    width: 80px;
+    border-radius: 85px;
+}
+
+.join-container-top-para {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.join-main-container {
+    /*  display: flex;
+   flex-direction: row; */
+}
+
+.blockchain-head {
+    font-size: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.join-container-image {
+    height: 150px;
+    width: 248px;
+}
+
+.explore-container {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 22px;
+    padding: 8px;
+    margin-left: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.explore-para {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.explore-icon-style {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.change-blue-color {
+    background-color: #b0f5f3;
+}
+
+.change-lightorange-color {
+    background-color: #f7d1b7;
+}
+
+.change-lightviolet-color {
+    background-color: #caeafc;
+}
+
+.last-container {
+    background-color: black;
+    height: 30vh;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.last-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-para {
+    color: grey;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* for small device*/
+@media (max-width:767px) {
+    .wel-heading {
+        font-size: 40px;
+    }
+
+    .top-para {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .get-start-container {
+        height: 60px;
+        width: 250px;
+        padding: 0px;
+    }
+
+    .get-icon-style {
+        font-size: 23px;
+    }
+
+    .icon-size {
+        font-size: 20px;
+    }
+
+    .bot-ser-head {
+        font-size: 35px;
+    }
+
+    .bot-ser-para {
+        font-size: 18px;
+    }
+
+    .arrow-icon-style {
+        font-size: 20px;
+    }
+
+    .join-main-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .join-container {
+        width: 400px;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    .join-container-top-para {
+        font-size: 30px;
+    }
+
+    .join-container-image {
+        width: 380px;
+        height: 190px;
+    }
+
+    .explore-container {
+        margin-left: 210px;
+    }
+}
+
+/* for medium and large device*/
+@media (min-width:768px) {
+    .join-main-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
